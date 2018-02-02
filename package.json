@@ -1,0 +1,31 @@
+{
+  "name": "@appliedblockchain/eslint-config",
+  "version": "1.0.0",
+  "description": "Eslint config for appliedblockchain",
+  "main": "config.js",
+  "scripts": {
+    "lint": "eslint -c config.js ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/appliedblockchain/eslint-config.git"
+  },
+  "peerDependencies": {
+    "eslint": ">= 3"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "eslint-config",
+    "applied-blockchain"
+  ],
+  "author": "Applied Blockchain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/appliedblockchain/eslint-config/issues"
+  },
+  "homepage": "https://github.com/appliedblockchain/eslint-config#readme",
+  "devDependencies": {
+    "eslint": "^4.16.0"
+  }
+}
