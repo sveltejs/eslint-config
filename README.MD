@@ -1,6 +1,6 @@
 ## Applied Blockchain eslint configuration
 
-Usage:
+## Usage:
 
 Installation:
 
@@ -8,11 +8,23 @@ Installation:
   npm install --save-dev @appliedblockchain/eslint-config
 ```
 
-In your project's package.json
+### Node Modules
+
+In your project's package.json, use the shorthand syntax
 
 ```json
   "eslintConfig": {
     "extends": "@appliedblockchain"
+  }
+```
+
+### React Projects
+
+In your project's package.json, point to the react config
+
+```json
+  "eslintConfig": {
+    "extends": "@appliedblockchain/eslint-config/react"
   }
 ```
 

@@ -2,9 +2,9 @@
   "name": "@appliedblockchain/eslint-config",
   "version": "1.0.0",
   "description": "Eslint config for appliedblockchain",
-  "main": "config.js",
+  "main": "node.js",
   "scripts": {
-    "lint": "eslint -c config.js ."
+    "lint": "eslint -c node.js ."
   },
   "repository": {
     "type": "git",
