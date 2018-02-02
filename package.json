@@ -27,5 +27,8 @@
   "homepage": "https://github.com/appliedblockchain/eslint-config#readme",
   "devDependencies": {
     "eslint": "^4.16.0"
+  },
+  "dependencies": {
+    "babel-eslint": "^8.2.1"
   }
 }
