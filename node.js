@@ -27,6 +27,7 @@ module.exports = {
     contract: true,
     describe: true,
     document: true,
+    context: true,
     expect: true,
     fetch: true,
     it: true,
