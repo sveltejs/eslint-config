@@ -31,6 +31,7 @@ module.exports = {
     expect: true,
     fetch: true,
     it: true,
+    jest: true,
     test: true,
     navigator: true,
     process: true,
