@@ -60,6 +60,7 @@ workflows:
             branches:
               only: master
             tags:
+              only: /v.*/
       - publish:
           context: org-global
           requires:
@@ -68,3 +69,4 @@ workflows:
             branches:
               ignore: /.*/
             tags:
+              only: /v.*/
