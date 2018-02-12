@@ -48,6 +48,7 @@ module.exports = {
     'no-console': off,
     'no-mixed-spaces-and-tabs': error,
     'no-tabs': error,
+    'no-trailing-spaces': error,
     'no-undefined': off,
     'no-use-before-define': [ error, { functions: false, classes: true } ],
     'object-curly-spacing': [ 0, never ],
