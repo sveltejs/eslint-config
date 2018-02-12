@@ -26,15 +26,15 @@ jobs:
 
       - run:
           name: Eslint
-          command: |
-            npm run lint:ci
+          command: npm run lint:ci
 
       - store_test_results:
           path: reports/junit
+
       - store_artifacts:
           path: reports/junit
 
-  deploy:
+  publish:
     docker:
       - image: circleci/node:9
 
@@ -60,7 +60,7 @@ workflows:
             branches:
               only: master
             tags:
-      - deploy:
+      - publish:
           context: org-global
           filters:
             branches:
