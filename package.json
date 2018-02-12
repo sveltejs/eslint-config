@@ -4,7 +4,8 @@
   "description": "Eslint config for appliedblockchain",
   "main": "node.js",
   "scripts": {
-    "lint": "eslint -c node.js ."
+    "lint": "eslint -c node.js .",
+    "lint:ci": "eslint -c node.js --format junit -o reports/junit/eslint-results.xml"
   },
   "repository": {
     "type": "git",
