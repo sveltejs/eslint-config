@@ -43,16 +43,16 @@ module.exports = {
   },
 
   rules: {
-    'no-console': off,
     'comma-dangle': [ 1, never ],
     'max-len': off,
+    'no-console': off,
     'no-mixed-spaces-and-tabs': error,
     'no-tabs': error,
-    'no-use-before-define': [ error, { functions: false, classes: true } ],
     'no-undefined': off,
+    'no-use-before-define': [ error, { functions: false, classes: true } ],
     'object-curly-spacing': [ 0, never ],
+    'quotes': [ error, single ],
     'semi': [ error, never ],
-    'space-before-function-paren': 0,
-    'quotes': [ error, single ]
+    'space-before-function-paren': 0
   }
 }
