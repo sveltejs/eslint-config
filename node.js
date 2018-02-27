@@ -52,6 +52,7 @@ module.exports = {
     'no-undefined': off,
     'no-use-before-define': [ error, { functions: false, classes: true } ],
     'object-curly-spacing': [ error, always ],
+    'array-bracket-spacing': [ error, always, { objectsInArrays: false } ],
     'quotes': [ error, single ],
     'semi': [ error, never ],
     'space-before-function-paren': 0
