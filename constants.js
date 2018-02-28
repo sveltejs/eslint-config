@@ -6,5 +6,6 @@ module.exports = {
   error: 2,
   single: 'single',
   any: 'any',
-  never: 'never'
+  never: 'never',
+  always: 'always'
 }
