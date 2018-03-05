@@ -5,7 +5,8 @@
 Installation:
 
 ```bash
-  npm install --save-dev @appliedblockchain/eslint-config
+npm i -D eslint
+npm i -D @appliedblockchain/eslint-config
 ```
 
 ### Node Modules
@@ -33,6 +34,6 @@ In your project's package.json, point to the react config
 This project self-lints:
 
 ```bash
-  npm i
-  npm run lint
+npm i
+npm run lint
 ```
