@@ -37,3 +37,14 @@ This project self-lints:
 npm i
 npm run lint
 ```
+
+## Releasing
+
+To release a new version, check out the code on your local machine, then:
+
+```bash
+npm version minor
+git push && git push --tags
+```
+
+Where `minor` is a sensible default for rule changes which will impact existing projects.
