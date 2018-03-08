@@ -43,6 +43,7 @@ module.exports = {
   },
 
   rules: {
+    'no-useless-constructor': error,
     'comma-dangle': [ 1, never ],
     'max-len': off,
     'no-console': off,
