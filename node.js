@@ -57,6 +57,7 @@ module.exports = {
     'quotes': [ error, single ],
     'semi': [ error, never ],
     'space-before-function-paren': 0,
-    'keyword-spacing': error
+    'keyword-spacing': error,
+    'eol-last': [ error, always ]
   }
 }
