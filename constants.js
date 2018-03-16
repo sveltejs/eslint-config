@@ -7,5 +7,6 @@ module.exports = {
   single: 'single',
   any: 'any',
   never: 'never',
-  always: 'always'
+  always: 'always',
+  all: 'all'
 }

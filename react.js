@@ -1,6 +1,6 @@
 'use strict'
 
-const { error, any } = require('./constants')
+const { warn, off, error, any } = require('./constants')
 
 module.exports = {
 
@@ -17,11 +17,11 @@ module.exports = {
 
   rules: {
     'jsx-quotes': [ error, 'prefer-double' ],
-    'react/jsx-indent': [ 1, 2 ],
-    'react/jsx-indent-props': [ 1, 2 ],
-    'react/forbid-prop-types': [ 2, { 'forbid': [ any ] } ],
-    'react/jsx-boolean-value': [ 0 ],
-    'react/sort-comp': [ 2, {
+    'react/jsx-indent': [ warn, 2 ],
+    'react/jsx-indent-props': [ warn, 2 ],
+    'react/forbid-prop-types': [ error, { 'forbid': [ any ] } ],
+    'react/jsx-boolean-value': [ off ],
+    'react/sort-comp': [ error, {
       'order': [
         'static-methods',
         'lifecycle',
@@ -53,12 +53,12 @@ module.exports = {
           'componentWillUnmount'
         ]
       }
-    }],
-    'react/jsx-pascal-case': 2,
-    'react/no-did-mount-set-state': 2,
-    'react/no-did-update-set-state': 2,
-    'react/no-unused-prop-types': 1,
-    'react/no-multi-comp': [ 1, { ignoreStateless: true } ],
-    'react/prefer-stateless-function': 2
+    } ],
+    'react/jsx-pascal-case': error,
+    'react/no-did-mount-set-state': error,
+    'react/no-did-update-set-state': error,
+    'react/no-unused-prop-types': warn,
+    'react/no-multi-comp': [ warn, { ignoreStateless: true } ],
+    'react/prefer-stateless-function': error
   }
 }
