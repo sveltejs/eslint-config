@@ -17,29 +17,18 @@ module.exports = {
   env: {
     es6: true,
     node: true,
-    browser: true
+    browser: true,
+    jest: true
   },
 
   globals: {
-    after: true,
-    afterEach: true,
     artifacts: true,
-    before: true,
-    beforeEach: true,
     console: true,
     contract: true,
-    describe: true,
-    document: true,
     context: true,
-    expect: true,
     fetch: true,
-    it: true,
-    jest: true,
-    test: true,
-    navigator: true,
     process: true,
-    URL: true,
-    window: true
+    URL: true
   },
 
   rules: {
