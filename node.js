@@ -33,6 +33,7 @@ module.exports = {
 
   rules: {
     'no-useless-constructor': error,
+    'space-infix-ops': error,
     'comma-dangle': [ warn, never ],
     'max-len': off,
     'no-console': off,
