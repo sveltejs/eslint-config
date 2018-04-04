@@ -17,10 +17,12 @@ module.exports = {
 
   rules: {
     'jsx-quotes': [ error, 'prefer-double' ],
-    'react/jsx-indent': [ warn, 2 ],
-    'react/jsx-indent-props': [ warn, 2 ],
     'react/forbid-prop-types': [ error, { 'forbid': [ any ] } ],
     'react/jsx-boolean-value': [ off ],
+    'react/jsx-indent': [ warn, 2 ],
+    'react/jsx-indent-props': [ warn, 2 ],
+    'react/jsx-pascal-case': error,
+    'react/jsx-tag-spacing': [ error, { 'beforeSelfClosing': 'always' } ],
     'react/sort-comp': [ error, {
       'order': [
         'static-methods',
@@ -54,7 +56,6 @@ module.exports = {
         ]
       }
     } ],
-    'react/jsx-pascal-case': error,
     'react/no-did-mount-set-state': error,
     'react/no-did-update-set-state': error,
     'react/no-unused-prop-types': warn,
