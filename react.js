@@ -17,6 +17,7 @@ module.exports = {
 
   rules: {
     'jsx-quotes': [ error, 'prefer-double' ],
+    'no-multiple-empty-lines': [ error, { max: 1 } ],
     'react/forbid-prop-types': [ error, { 'forbid': [ any ] } ],
     'react/jsx-boolean-value': [ off ],
     'react/jsx-indent': [ warn, 2 ],
