@@ -61,6 +61,6 @@ module.exports = {
     'react/no-did-update-set-state': error,
     'react/no-unused-prop-types': warn,
     'react/no-multi-comp': [ warn, { ignoreStateless: true } ],
-    'react/prefer-stateless-function': error
+    'react/prefer-stateless-function': [ error, { ignorePureComponents: true } ]
   }
 }
