@@ -16,23 +16,23 @@ module.exports = {
   ],
 
   rules: {
-    'jsx-quotes': [ error, 'prefer-double' ],
+    'jsx-quotes': [ error, 'prefer-double' ],   
+    'react/forbid-prop-types': [ error, { forbid: [ any ] } ],
     'no-multiple-empty-lines': [ error, { max: 1 } ],
-    'react/forbid-prop-types': [ error, { 'forbid': [ any ] } ],
     'react/jsx-boolean-value': [ off ],
     'react/jsx-indent': [ warn, 2 ],
     'react/jsx-indent-props': [ warn, 2 ],
     'react/jsx-pascal-case': error,
     'react/jsx-tag-spacing': [ error, { 'beforeSelfClosing': 'always' } ],
     'react/sort-comp': [ error, {
-      'order': [
+      order: [
         'static-methods',
         'lifecycle',
         'everything-else',
         'render'
       ],
-      'groups': {
-        'lifecycle': [
+      groups: {
+        lifecycle: [
           'displayName',
           'propTypes',
           'props',
