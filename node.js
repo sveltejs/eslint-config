@@ -32,6 +32,7 @@ module.exports = {
   },
 
   rules: {
+    'no-multi-spaces': error,
     'no-useless-constructor': error,
     'space-infix-ops': error,
     'comma-dangle': [ warn, never ],
