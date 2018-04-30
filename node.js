@@ -53,7 +53,6 @@ module.exports = {
     'curly': [ error, all ],
     'block-spacing': [ error,  always ],
     'indent': [ error, 2, { SwitchCase: 1 } ],
-    'no-tabs': error,
     'spaced-comment': [ error, always ],
     'array-callback-return': warn,
     'eqeqeq': [ error, always, { null: 'ignore' } ],
@@ -80,9 +79,9 @@ module.exports = {
     'space-before-blocks': error,
     'space-in-parens': [ error, never ],
     'space-unary-ops': error,
-    'space-infix-ops': error,
     'prefer-const': warn,
     'prefer-rest-params': error,
-    'prefer-spread': error
+    'prefer-spread': error,
+    'no-constant-condition': [ error, { checkLoops: false } ]
   }
 }
