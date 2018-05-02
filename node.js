@@ -84,6 +84,7 @@ module.exports = {
     'space-infix-ops': error,
     'prefer-const': warn,
     'prefer-rest-params': error,
-    'prefer-spread': error
+    'prefer-spread': error,
+    'no-unused-vars': [ error, { argsIgnorePattern: '^_' } ]
   }
 }
