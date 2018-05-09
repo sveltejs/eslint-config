@@ -5,8 +5,7 @@
 Installation:
 
 ```bash
-npm i -D eslint
-npm i -D @appliedblockchain/eslint-config
+npm i -D eslint @appliedblockchain/eslint-config
 ```
 
 ### Node Modules
