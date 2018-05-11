@@ -63,7 +63,7 @@ module.exports = {
     'no-self-compare': error,
     'no-return-assign': error,
     'no-loop-func': error,
-    'valid-jsdoc': warn,
+    'valid-jsdoc': [ warn, { requireParamDescription: false, requireReturnDescription: false } ],
     'for-direction': error,
     'no-buffer-constructor': error,
     'no-new-require': error,
