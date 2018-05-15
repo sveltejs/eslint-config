@@ -32,7 +32,7 @@ module.exports = {
   },
 
   rules: {
-    'no-multi-spaces': error,
+    'no-multi-spaces': [ error, { exceptions: { VariableDeclarator: true } } ],
     'no-useless-constructor': error,
     'space-infix-ops': error,
     'comma-dangle': [ warn, never ],
