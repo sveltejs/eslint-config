@@ -16,7 +16,8 @@ module.exports = {
   ],
 
   rules: {
-    'jsx-quotes': [ error, 'prefer-double' ],   
+    'brace-style': [ error, '1tbs', { allowSingleLine: true } ],
+    'jsx-quotes': [ error, 'prefer-double' ],
     'react/forbid-prop-types': [ error, { forbid: [ any ] } ],
     'no-multiple-empty-lines': [ error, { max: 1 } ],
     'react/jsx-boolean-value': [ off ],

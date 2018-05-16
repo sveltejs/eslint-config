@@ -50,7 +50,7 @@ module.exports = {
     'space-before-function-paren': off,
     'keyword-spacing': error,
     'eol-last': [ error, always ],
-    'brace-style': [ error, '1tbs', { allowSingleLine: true } ],
+    'brace-style': [ error, '1tbs', { allowSingleLine: false } ],
     'curly': [ error, all ],
     'block-spacing': [ error,  always ],
     'indent': [ error, 2, { SwitchCase: 1 } ],
