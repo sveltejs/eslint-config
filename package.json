@@ -7,10 +7,7 @@
     "lint": "eslint -c node.js .",
     "lint:ci": "eslint -c node.js --format junit -o reports/junit/eslint-results.xml"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/appliedblockchain/eslint-config.git"
-  },
+  "repository": "appliedblockchain/eslint-config",
   "peerDependencies": {
     "eslint": ">= 3"
   },
@@ -27,10 +24,10 @@
   },
   "homepage": "https://github.com/appliedblockchain/eslint-config#readme",
   "devDependencies": {
-    "eslint": "^4.16.0"
+    "eslint": "^5.0.0"
   },
   "dependencies": {
-    "babel-eslint": "^8.2.1",
-    "eslint-plugin-react": "^7.6.1"
+    "babel-eslint": "^8.2.5",
+    "eslint-plugin-react": "^7.10.0"
   }
 }
