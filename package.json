@@ -1,13 +1,13 @@
 {
-  "name": "@appliedblockchain/eslint-config",
+  "name": "@beyonk/eslint-config",
   "version": "2.3.0",
-  "description": "Eslint config for appliedblockchain",
+  "description": "Eslint config for beyonk",
   "main": "node.js",
   "scripts": {
     "lint": "eslint -c node.js .",
     "lint:ci": "eslint -c node.js --format junit -o reports/junit/eslint-results.xml"
   },
-  "repository": "appliedblockchain/eslint-config",
+  "repository": "beyonk/eslint-config",
   "peerDependencies": {
     "eslint": ">= 3"
   },
@@ -15,19 +15,23 @@
     "eslint",
     "config",
     "eslint-config",
-    "applied-blockchain"
+    "beyonk"
   ],
-  "author": "Applied Blockchain",
+  "author": "Beyonk",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/appliedblockchain/eslint-config/issues"
+    "url": "https://github.com/beyonk/eslint-config/issues"
   },
-  "homepage": "https://github.com/appliedblockchain/eslint-config#readme",
+  "homepage": "https://github.com/beyonk/eslint-config#readme",
   "devDependencies": {
-    "eslint": "^5.0.0"
+    "eslint": "^5.0.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0"
   },
   "dependencies": {
-    "babel-eslint": "^8.2.5",
-    "eslint-plugin-react": "^7.10.0"
+    "babel-eslint": "^8.2.5"
   }
 }

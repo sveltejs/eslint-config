@@ -1,11 +1,17 @@
-## Applied Blockchain eslint configuration
+## Beyonk eslint configuration
+
+This is essentially a reactless fork of [the eslint-config I made](https://github.com/appliedblockchain/eslint-config/) whilst at Applied Blockchain.
+
+It is based on `standard` with a few minor tweaks for neatness.
+
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
 
 ## Usage:
 
 Installation:
 
 ```bash
-npm i -D eslint @appliedblockchain/eslint-config
+npm i -D eslint @beyonk/eslint-config
 ```
 
 ### Node Modules
@@ -14,17 +20,7 @@ In your project's package.json, use the shorthand syntax
 
 ```json
   "eslintConfig": {
-    "extends": "@appliedblockchain"
-  }
-```
-
-### React Projects
-
-In your project's package.json, point to the react config
-
-```json
-  "eslintConfig": {
-    "extends": "@appliedblockchain/eslint-config/react"
+    "extends": "@beyonk"
   }
 ```
 
