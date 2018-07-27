@@ -1,6 +1,6 @@
 {
   "name": "@beyonk/eslint-config",
-  "version": "2.3.0",
+  "version": "3.0.0",
   "description": "Eslint config for beyonk",
   "main": "node.js",
   "scripts": {
