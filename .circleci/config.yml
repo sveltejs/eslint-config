@@ -11,7 +11,7 @@ jobs:
 
       - run:
           name: Authorize NPM
-          command: echo "//registry.npmjs.org/:_authToken=$PRIVATE_NPM_TOKEN" > ~/.npmrc
+          command: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/.npmrc
 
       - restore_cache:
           keys:
