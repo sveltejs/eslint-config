@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/node:9
+      - image: circleci/node:10
 
     working_directory: ~/workspace
 
@@ -32,7 +32,7 @@ jobs:
 
   publish:
     docker:
-      - image: circleci/node:9
+      - image: circleci/node:10
 
     steps:
       - add_ssh_keys
@@ -44,7 +44,7 @@ jobs:
 
       - run:
           name: Publish to NPM
-          command: npm publish
+          command: npm publish --access=public
 
 workflows:
   version: 2
