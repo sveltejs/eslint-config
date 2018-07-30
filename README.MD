@@ -4,7 +4,7 @@
 
 ## ESLint configuration
 
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com) [![CircleCI](https://circleci.com/gh/beyonk-adventures/eslint-config.svg?style=svg)](https://circleci.com/gh/beyonk-adventures/eslint-config)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com) [![CircleCI](https://circleci.com/gh/beyonk-adventures/eslint-config.svg?style=shield)](https://circleci.com/gh/beyonk-adventures/eslint-config)
 
 This is essentially a reactless fork of [the eslint-config I made](https://github.com/appliedblockchain/eslint-config/) whilst at Applied Blockchain.
 
