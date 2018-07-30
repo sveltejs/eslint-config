@@ -1,5 +1,5 @@
 <p align="center">
-![beyonk logo colour](https://user-images.githubusercontent.com/218949/43399071-c35bfd86-9401-11e8-9e11-ffee6888ce8a.png)
+  <img src="https://user-images.githubusercontent.com/218949/43399071-c35bfd86-9401-11e8-9e11-ffee6888ce8a.png" alt="Beyonk" />
 </p>
 
 ## ESLint configuration
