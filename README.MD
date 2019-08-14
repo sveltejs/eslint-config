@@ -6,7 +6,7 @@
 
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com) [![CircleCI](https://circleci.com/gh/beyonk-adventures/eslint-config.svg?style=shield)](https://circleci.com/gh/beyonk-adventures/eslint-config)
 
-This is essentially a reactless fork of [the eslint-config I made](https://github.com/appliedblockchain/eslint-config/) whilst at Applied Blockchain.
+This is essentially a fork of [the eslint-config I made](https://github.com/appliedblockchain/eslint-config/) whilst at Applied Blockchain, but adapted to have Node and Svelte linting, rather than Node and React.
 
 It is based on `standard` with a few minor tweaks for neatness.
 
@@ -29,6 +29,16 @@ In your project's package.json, use the shorthand syntax
 ```json
   "eslintConfig": {
     "extends": "@beyonk"
+  }
+```
+
+### Svelte Components
+
+In your project's package.json, use the shorthand syntax
+
+```json
+  "eslintConfig": {
+    "extends": "@beyonk/eslint-config/svelte"
   }
 ```
 
