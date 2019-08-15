@@ -5,10 +5,10 @@ module.exports = {
     '@beyonk/eslint-config',
     'svelte3'
   ],
-  'overrides': [
+  overrides: [
     {
-      'files': ['*.svelte','*.html'],
-      'rules': {
+      files: ['*.svelte','*.html'],
+      rules: {
         'import/first': 'off',
         'import/no-duplicates': 'off',
         'import/no-mutable-exports': 'off',
