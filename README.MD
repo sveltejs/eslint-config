@@ -2,8 +2,6 @@
 
 WIP
 
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
-
 ## Contributing
 
 Want to add an eslint rule? Open a PR and use gh-polls for voting: https://app.gh-polls.com/
