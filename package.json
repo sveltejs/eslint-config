@@ -1,7 +1,7 @@
 {
-  "name": "@beyonk/eslint-config",
-  "version": "4.0.1",
-  "description": "Eslint config for beyonk",
+  "name": "svelte-eslint-config",
+  "version": "0.0.0",
+  "description": "Svelte ESLint config",
   "main": "node.js",
   "scripts": {
     "lint": "eslint -c node.js .",
@@ -9,30 +9,28 @@
   },
   "repository": "beyonk/eslint-config",
   "peerDependencies": {
-    "eslint": ">= 3"
+    "eslint": ">= 7"
   },
   "keywords": [
     "eslint",
     "config",
     "eslint-config",
-    "beyonk"
+    "svelte"
   ],
-  "author": "Beyonk",
+  "author": "Svelte",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/beyonk/eslint-config/issues"
+    "url": "https://github.com/svelte/eslint-config/issues"
   },
-  "homepage": "https://github.com/beyonk/eslint-config#readme",
+  "homepage": "https://github.com/svelte/eslint-config#readme",
   "devDependencies": {
-    "babel-eslint": "^10.0.3",
-    "eslint": "^6.6.0"
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.1.0"
   },
   "dependencies": {
-    "eslint-config-standard": "^14.1.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-mocha": "^6.2.0",
-    "eslint-plugin-node": "^10.0.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1"
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-mocha": "^7.0.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1"
   }
 }
