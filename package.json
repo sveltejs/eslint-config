@@ -1,5 +1,5 @@
 {
-  "name": "svelte-eslint-config",
+  "name": "@sveltejs/eslint-config",
   "version": "0.0.0",
   "description": "Svelte ESLint config",
   "main": "node.js",
