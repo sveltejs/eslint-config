@@ -1,6 +1,6 @@
 'use strict'
 
-import { off, always, error, never } from './constants';
+const { off, all, always, error, never } = require('./constants');
 
 module.exports = {
   rules: {
@@ -61,16 +61,6 @@ module.exports = {
 		sourceType: 'module'
 	},
 	plugins: ['svelte3'],
-	settings: {
-		'import/core-modules': [
-			'svelte',
-			'svelte/internal',
-			'svelte/store',
-			'svelte/easing',
-			'estree'
-		],
-		'svelte3/compiler': require('./compiler')
-	},
 	overrides: [
 		{
 			files: ['*.js'],
