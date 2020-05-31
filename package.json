@@ -8,9 +8,6 @@
     "lint:ci": "eslint -c index.js --format junit -o reports/junit/eslint-results.xml"
   },
   "repository": "sveltejs/eslint-config",
-  "peerDependencies": {
-    "eslint": ">= 7"
-  },
   "keywords": [
     "eslint",
     "config",
@@ -21,14 +18,21 @@
   "license": "MIT",
   "homepage": "https://github.com/svelte/eslint-config#readme",
   "devDependencies": {
-    "eslint": "^7.1.0",
-    "typescript": "^3.9.3"
-  },
-  "dependencies": {
     "@typescript-eslint/eslint-plugin": "^3.0.2",
     "@typescript-eslint/parser": "^3.0.2",
+    "eslint": "^7.1.0",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-svelte3": "^2.7.3"
+    "eslint-plugin-svelte3": "^2.7.3",
+    "typescript": "^3.9.3"
+  },
+  "peerDependencies": {
+    "eslint": ">= 7",
+    "typescript": ">= 3",
+    "@typescript-eslint/eslint-plugin": ">= 3",
+    "@typescript-eslint/parser": ">= 3",
+    "eslint-plugin-import": ">= 2",
+    "eslint-plugin-node": ">= 11",
+    "eslint-plugin-svelte3": ">= 2"
   }
 }

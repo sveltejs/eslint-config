@@ -4,11 +4,11 @@ const { off, all, always, allow, error, never, warn } = require('./constants');
 
 module.exports = {
 	rules: {
-		'camelcase': off,
-		'indent': [ warn, 'tab' ],
+		camelcase: off,
+		indent: [ warn, 'tab' ],
 		'comma-dangle': [ error, never ],
 		'no-unused-vars': off,
-		'semi': [ 2, always ],
+		semi: [ 2, always ],
 		'keyword-spacing': [ 2, { before: true, after: true } ],
 		'space-before-blocks': [ 2, always ],
 		'no-mixed-spaces-and-tabs': [ 2, 'smart-tabs' ],
