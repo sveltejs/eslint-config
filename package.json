@@ -2,12 +2,12 @@
   "name": "@sveltejs/eslint-config",
   "version": "0.0.0",
   "description": "Svelte ESLint config",
-  "main": "node.js",
+  "main": "index.js",
   "scripts": {
-    "lint": "eslint -c node.js .",
-    "lint:ci": "eslint -c node.js --format junit -o reports/junit/eslint-results.xml"
+    "lint": "eslint -c index.js .",
+    "lint:ci": "eslint -c index.js --format junit -o reports/junit/eslint-results.xml"
   },
-  "repository": "beyonk/eslint-config",
+  "repository": "sveltejs/eslint-config",
   "peerDependencies": {
     "eslint": ">= 7"
   },
@@ -19,19 +19,16 @@
   ],
   "author": "Svelte",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/svelte/eslint-config/issues"
-  },
   "homepage": "https://github.com/svelte/eslint-config#readme",
   "devDependencies": {
-    "babel-eslint": "^10.1.0",
-    "eslint": "^7.1.0"
+    "eslint": "^7.1.0",
+    "typescript": "^3.9.3"
   },
   "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.0.2",
+    "@typescript-eslint/parser": "^3.0.2",
     "eslint-plugin-import": "^2.20.2",
-    "eslint-plugin-mocha": "^7.0.0",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-svelte3": "^2.7.3"
   }
 }

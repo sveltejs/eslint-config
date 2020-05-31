@@ -1,6 +1,6 @@
 ## ESLint configuration
 
-WIP
+Common eslint configuration for the Svelte organisation
 
 ## Contributing
 
