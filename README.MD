@@ -11,7 +11,7 @@ Want to add an eslint rule? Open a PR and use gh-polls for voting: https://app.g
 Installation:
 
 ```bash
-npm i -D eslint svelte-eslint-config
+npm i -D eslint sveltejs/eslint-config
 ```
 
 ### Node Modules
