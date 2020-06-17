@@ -28,7 +28,7 @@ module.exports = {
 		'one-var': off,
 		'require-atomic-updates': off,
 		'no-import-assign': warn,
-		'@typescript-eslint/indent': [ warn, 'tab' ],
+		'@typescript-eslint/indent': off,
 		'@typescript-eslint/camelcase': off,
 		'@typescript-eslint/no-use-before-define': off,
 		'@typescript-eslint/array-type': [ error, { default: 'array-simple' } ],
