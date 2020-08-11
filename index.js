@@ -5,7 +5,6 @@ const { off, all, always, error, never, warn } = require('./constants');
 module.exports = {
 	rules: {
 		camelcase: off,
-		indent: [ warn, 'tab' ],
 		'comma-dangle': [ warn, never ],
 		'no-unused-vars': off,
 		semi: [ 2, always ],
@@ -28,7 +27,6 @@ module.exports = {
 		'one-var': off,
 		'require-atomic-updates': off,
 		'no-import-assign': warn,
-		'@typescript-eslint/indent': [ warn, 'tab' ],
 		'@typescript-eslint/camelcase': off,
 		'@typescript-eslint/no-use-before-define': off,
 		'@typescript-eslint/array-type': [ error, { default: 'array-simple' } ],
@@ -73,13 +71,6 @@ module.exports = {
 			files: ['*.js'],
 			rules: {
 				'@typescript-eslint/no-var-requires': off
-			}
-		},
-		{
-			files: ['*.svelte'],
-			processor: 'svelte3/svelte3',
-			rules: {
-				'@typescript-eslint/indent': off
 			}
 		}
 	]
