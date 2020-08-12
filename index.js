@@ -72,6 +72,13 @@ module.exports = {
 			rules: {
 				'@typescript-eslint/no-var-requires': off
 			}
+		},
+		{
+			files: ['*.svelte'],
+			processor: 'svelte3/svelte3',
+			rules: {
+				'@typescript-eslint/indent': off
+			}
 		}
 	]
 };
