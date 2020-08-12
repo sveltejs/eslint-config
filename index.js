@@ -1,6 +1,6 @@
 'use strict';
 
-const { off, all, always, error, never, warn } = require('./constants');
+const { off, all, always, error, never } = require('./constants');
 
 module.exports = {
 	rules: {
