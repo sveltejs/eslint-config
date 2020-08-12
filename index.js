@@ -1,6 +1,6 @@
 'use strict';
 
-const { off, all, always, error, never } = require('./constants');
+const { off, all, always, error, never, warn } = require('./constants');
 
 module.exports = {
 	rules: {
@@ -26,7 +26,7 @@ module.exports = {
 		'no-inner-declarations': 0,
 		'one-var': off,
 		'require-atomic-updates': off,
-		'no-import-assign': error,
+		'no-import-assign': warn,
 		'@typescript-eslint/camelcase': off,
 		'@typescript-eslint/no-use-before-define': off,
 		'@typescript-eslint/array-type': [ error, { default: 'array-simple' } ],
