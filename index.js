@@ -20,7 +20,7 @@ module.exports = {
 		'no-unreachable': 2,
 		'valid-typeof': 2,
 		'quote-props': [ 2, 'as-needed' ],
-		quotes: ['error', 'single'],
+		quotes: ['error', 'single', { avoidEscape: true }],
 		'prefer-arrow-callback': 2,
 		'prefer-const': [ 2, { destructuring: all } ],
 		'arrow-spacing': 2,
