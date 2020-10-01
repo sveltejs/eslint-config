@@ -28,6 +28,7 @@ module.exports = {
 		'one-var': off,
 		'require-atomic-updates': off,
 		'no-import-assign': warn,
+		'eol-last': error,
 		'@typescript-eslint/camelcase': off,
 		'@typescript-eslint/no-use-before-define': off,
 		'@typescript-eslint/array-type': [ error, { default: 'array-simple' } ],
