@@ -6,7 +6,7 @@ module.exports = {
 	rules: {
 		camelcase: off,
 		'comma-dangle': [ error, never ],
-		'curly': [ error, 'multi-line' ],
+		curly: [ error, 'multi-line' ],
 		'no-unused-vars': off,
 		semi: [ 2, always ],
 		'keyword-spacing': [ 2, { before: true, after: true } ],
