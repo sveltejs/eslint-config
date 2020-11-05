@@ -4,6 +4,7 @@ const { off, all, always, error, never, warn } = require('./constants');
 
 module.exports = {
 	rules: {
+		'brace-style': 2,
 		camelcase: off,
 		'comma-dangle': [ error, never ],
 		curly: [ error, 'multi-line' ],
