@@ -10,6 +10,7 @@ module.exports = {
 		'comma-dangle': [ error, never ],
 		curly: [ error, 'multi-line' ],
 		'eol-last': error,
+		'import/no-unresolved': off,
 		'keyword-spacing': [ 2, { before: true, after: true } ],
 		'no-unused-vars': off,
 		'no-mixed-spaces-and-tabs': [ 2, 'smart-tabs' ],
