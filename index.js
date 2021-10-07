@@ -45,7 +45,7 @@ module.exports = {
 		'@typescript-eslint/no-explicit-any': off,
 		'@typescript-eslint/no-inferrable-types': off,
 		'@typescript-eslint/no-object-literal-type-assertion': off,
-		'@typescript-eslint/no-unused-vars': ['error', { args: 'none' }],
+		'@typescript-eslint/no-unused-vars': ['error', { args: 'after-used', argsIgnorePattern: '^_' }],
 		'@typescript-eslint/no-use-before-define': off,
 		'@typescript-eslint/no-this-alias': off,
 		'@typescript-eslint/prefer-interface': off,
