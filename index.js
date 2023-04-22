@@ -7,13 +7,13 @@ module.exports = {
 		'arrow-spacing': 2,
 		'brace-style': 2,
 		camelcase: off,
-		'comma-dangle': [ error, never ],
-		curly: [ error, 'multi-line' ],
+		'comma-dangle': [error, never],
+		curly: [error, 'multi-line'],
 		'eol-last': error,
 		'import/no-unresolved': off,
-		'keyword-spacing': [ 2, { before: true, after: true } ],
+		'keyword-spacing': [2, { before: true, after: true }],
 		'no-unused-vars': off,
-		'no-mixed-spaces-and-tabs': [ 2, 'smart-tabs' ],
+		'no-mixed-spaces-and-tabs': [2, 'smart-tabs'],
 		'no-cond-assign': 0,
 		'no-class-assign': 2,
 		'no-const-assign': 2,
@@ -22,17 +22,17 @@ module.exports = {
 		'no-this-before-super': 2,
 		'no-var': 2,
 		'no-unreachable': 2,
-		'object-shorthand': [ 2, always ],
+		'object-shorthand': [2, always],
 		'one-var': off,
 		'prefer-arrow-callback': 2,
-		'prefer-const': [ 2, { destructuring: all } ],
+		'prefer-const': [2, { destructuring: all }],
 		quotes: ['error', 'single', { avoidEscape: true }],
-		'quote-props': [ 2, 'as-needed' ],
+		'quote-props': [2, 'as-needed'],
 		'require-atomic-updates': off,
-		semi: [ 2, always ],
-		'space-before-blocks': [ 2, always ],
+		semi: [2, always],
+		'space-before-blocks': [2, always],
 		'valid-typeof': 2,
-		'@typescript-eslint/array-type': [ error, { default: 'array-simple' } ],
+		'@typescript-eslint/array-type': [error, { default: 'array-simple' }],
 		'@typescript-eslint/ban-ts-comment': off,
 		'@typescript-eslint/ban-types': off,
 		'@typescript-eslint/camelcase': off,
@@ -65,13 +65,13 @@ module.exports = {
 		'plugin:import/errors',
 		'plugin:import/warnings',
 		'plugin:import/typescript',
-		'plugin:@typescript-eslint/recommended'
+		'plugin:@typescript-eslint/recommended',
+		'plugin:svelte/recommended'
 	],
 	parserOptions: {
 		ecmaVersion: 9,
 		sourceType: 'module'
 	},
-	plugins: ['svelte3'],
 	overrides: [
 		{
 			files: ['*.js'],
@@ -80,8 +80,16 @@ module.exports = {
 			}
 		},
 		{
+
 			files: ['*.svelte'],
-			processor: 'svelte3/svelte3'
+			parser: 'svelte-eslint-parser',
+			parserOptions: {
+				parser: {
+					ts: '@typescript-eslint/parser',
+					js: 'espree',
+					typescript: '@typescript-eslint/parser'
+				}
+			}
 		}
 	]
 };
