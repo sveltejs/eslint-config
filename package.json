@@ -38,5 +38,6 @@
     "eslint-plugin-svelte": ">= 2",
     "eslint-plugin-unicorn": ">= 47",
     "typescript": ">= 5"
-  }
+  },
+  "packageManager": "pnpm@8.4.0"
 }
