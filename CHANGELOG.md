@@ -1,12 +1,16 @@
 # @sveltejs/eslint-config
 
+## 6.0.2
+
+### Patch Changes
+
+- fix: lower typescript peerDependency version ([`af97002`](https://github.com/sveltejs/eslint-config/commit/af97002e5707573588d16bb87ac28d7da70cddb4))
+
 ## 6.0.1
 
 ### Patch Changes
 
 - fix: move changesets CLI to devDependencies ([`9605ac3`](https://github.com/sveltejs/eslint-config/commit/9605ac3c91e9192a72592f084b44bf06f464ba44))
-
-- fix: lower typescript peerDependency version ([`af97002`](https://github.com/sveltejs/eslint-config/commit/af97002e5707573588d16bb87ac28d7da70cddb4))
 
 ## 6.0.0
 
