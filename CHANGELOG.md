@@ -4,6 +4,14 @@
 
 ### Patch Changes
 
+- fix: lower typescript peerDependency version ([`8e88354`](https://github.com/sveltejs/eslint-config/commit/8e88354c16e75632bbce723d152394932d51992e))
+
+- fix: lower typescript peerDependency version ([`502c0a4`](https://github.com/sveltejs/eslint-config/commit/502c0a4290f7ff905377019b8523aa98a978f7fd))
+
+## 6.0.2
+
+### Patch Changes
+
 - fix: lower typescript peerDependency version ([`af97002`](https://github.com/sveltejs/eslint-config/commit/af97002e5707573588d16bb87ac28d7da70cddb4))
 
 ## 6.0.1
