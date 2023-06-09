@@ -1,5 +1,13 @@
 # @sveltejs/eslint-config
 
+## 6.0.3
+
+### Patch Changes
+
+- remove eslint-plugin-node ([#27](https://github.com/sveltejs/eslint-config/pull/27))
+
+- remove eslint-plugin-import ([#25](https://github.com/sveltejs/eslint-config/pull/25))
+
 ## 6.0.2
 
 ### Patch Changes
