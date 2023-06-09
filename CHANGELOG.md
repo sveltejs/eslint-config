@@ -1,5 +1,11 @@
 # @sveltejs/eslint-config
 
+## 6.0.4
+
+### Patch Changes
+
+- fix: remove old config referring to eslint-plugin-import ([#28](https://github.com/sveltejs/eslint-config/pull/28))
+
 ## 6.0.3
 
 ### Patch Changes
