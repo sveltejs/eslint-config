@@ -18,6 +18,10 @@
   "author": "Svelte",
   "license": "MIT",
   "homepage": "https://github.com/svelte/eslint-config#readme",
+  "files": [
+    "index.js",
+    "package.json"
+  ],
   "devDependencies": {
     "@svitejs/changesets-changelog-github-compact": "^1.1.0",
     "@typescript-eslint/eslint-plugin": "^5.59.6",
