@@ -47,13 +47,13 @@ export default [
 			'no-sparse-arrays': 'off',
 			'no-restricted-properties': [
 				'error',
-				{ 'object': 'test', 'property': 'only', 'message': 'Do not check in test.only tests.' }
+				{ object: 'test', property: 'only', message: 'Do not check in test.only tests.' }
 			],
 			'no-var': 'error',
 			'object-shorthand': [ 'error', 'always' ],
 			'prefer-arrow-callback': 'error',
 			'prefer-const': [ 'error', { destructuring: 'all' } ],
-			'quotes': ['error', 'single', { avoidEscape: true }],
+			quotes: ['error', 'single', { avoidEscape: true }],
 			'quote-props': [ 'error', 'as-needed' ],
 			'svelte/no-inner-declarations': 'off',
 			'unicorn/prefer-node-protocol': 'error'
