@@ -8,20 +8,18 @@ Want to add an eslint rule? Open a PR and use gh-polls for voting: https://app.g
 
 ## Usage
 
-Installation:
+After installing `@sveltejs/eslint-config` with your package manager of choice,
+import it and put it in the configuration array in `eslint.config.js`.
 
-```bash
-npm i -D eslint sveltejs/eslint-config
-```
+```js
+import svelteConfig from '@sveltejs/eslint-config';
 
-### Node Modules
-
-In your project's package.json, use the shorthand syntax
-
-```json
-  "eslintConfig": {
-    "extends": "@sveltejs"
-  }
+export default [
+	...svelteConfig,
+	{
+		// your overrides
+	}
+];
 ```
 
 ## Linting
