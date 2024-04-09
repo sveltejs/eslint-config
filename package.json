@@ -25,7 +25,7 @@
     "eslint": "^9.0.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-svelte": "^2.36.0",
-    "eslint-plugin-unicorn": "^47.0.0",
+    "eslint-plugin-unicorn": "^52.0.0",
     "globals": "^15.0.0",
     "svelte": "^4.2.12",
     "typescript": "^5.4.4",
