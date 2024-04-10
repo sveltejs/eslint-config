@@ -1,5 +1,13 @@
 # @sveltejs/eslint-config
 
+## 7.0.0
+
+### Major Changes
+
+- breaking: require eslint v9 and switch to flat config ([#31](https://github.com/sveltejs/eslint-config/pull/31))
+
+- breaking: replace deprecated stylistic rules ([#34](https://github.com/sveltejs/eslint-config/pull/34))
+
 ## 6.0.4
 
 ### Patch Changes
