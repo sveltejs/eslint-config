@@ -1,5 +1,11 @@
 # @sveltejs/eslint-config
 
+## 7.0.1
+
+### Patch Changes
+
+- fix: do not require `globals` as peer dependency ([#35](https://github.com/sveltejs/eslint-config/pull/35))
+
 ## 7.0.0
 
 ### Major Changes
