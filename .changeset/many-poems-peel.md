@@ -1,5 +1,5 @@
 ---
-"@sveltejs/eslint-config": minor
+"@sveltejs/eslint-config": patch
 ---
 
 fix: do not require `globals` as peer dependency
