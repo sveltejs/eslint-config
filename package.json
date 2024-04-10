@@ -19,6 +19,9 @@
   "author": "Svelte",
   "license": "MIT",
   "homepage": "https://github.com/svelte/eslint-config#readme",
+  "dependencies": {
+    "globals": "^15.0.0"
+  },
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
     "@stylistic/eslint-plugin-js": "^1.7.0",
@@ -27,7 +30,6 @@
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-svelte": "^2.36.0",
     "eslint-plugin-unicorn": "^52.0.0",
-    "globals": "^15.0.0",
     "svelte": "^4.2.12",
     "typescript": "^5.4.4",
     "typescript-eslint": "^7.6.0"
@@ -38,7 +40,6 @@
     "eslint-config-prettier": ">= 9",
     "eslint-plugin-svelte": ">= 2.36",
     "eslint-plugin-unicorn": ">= 50",
-    "globals": ">= 15",
     "typescript": ">= 5",
     "typescript-eslint": ">= 7.5"
   },
