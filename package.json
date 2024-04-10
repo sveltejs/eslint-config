@@ -5,7 +5,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint -c index.js .",
+    "lint": "eslint -c index.js",
     "lint:ci": "eslint -c index.js --format junit -o reports/junit/eslint-results.xml",
     "release": "changeset publish"
   },
