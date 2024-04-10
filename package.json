@@ -19,6 +19,10 @@
   "author": "Svelte",
   "license": "MIT",
   "homepage": "https://github.com/svelte/eslint-config#readme",
+  "files": [
+    "index.js",
+    "package.json"
+  ],
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
     "@stylistic/eslint-plugin-js": "^1.7.0",
