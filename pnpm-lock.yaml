@@ -8,6 +8,9 @@ devDependencies:
   '@changesets/cli':
     specifier: ^2.27.1
     version: 2.27.1
+  '@stylistic/eslint-plugin-js':
+    specifier: ^1.7.0
+    version: 1.7.0(eslint@9.0.0)
   '@svitejs/changesets-changelog-github-compact':
     specifier: ^1.1.0
     version: 1.1.0
@@ -418,6 +421,20 @@ packages:
       fastq: 1.17.1
     dev: true
 
+  /@stylistic/eslint-plugin-js@1.7.0(eslint@9.0.0):
+    resolution: {integrity: sha512-PN6On/+or63FGnhhMKSQfYcWutRlzOiYlVdLM6yN7lquoBTqUJHYnl4TA4MHwiAt46X5gRxDr1+xPZ1lOLcL+Q==}
+    engines: {node: ^16.0.0 || >=18.0.0}
+    peerDependencies:
+      eslint: '>=8.40.0'
+    dependencies:
+      '@types/eslint': 8.56.7
+      acorn: 8.11.3
+      escape-string-regexp: 4.0.0
+      eslint: 9.0.0
+      eslint-visitor-keys: 3.4.3
+      espree: 9.6.1
+    dev: true
+
   /@svitejs/changesets-changelog-github-compact@1.1.0:
     resolution: {integrity: sha512-qhUGGDHcpbY2zpjW3SwqchuW8J/5EzlPFud7xNntHKA7f3a/mx5+g+ruJKFHSAiVZYo30PALt+AyhmPUNKH/Og==}
     engines: {node: ^14.13.1 || ^16.0.0 || >=18}
@@ -426,6 +443,13 @@ packages:
       dotenv: 16.4.5
     transitivePeerDependencies:
       - encoding
+    dev: true
+
+  /@types/eslint@8.56.7:
+    resolution: {integrity: sha512-SjDvI/x3zsZnOkYZ3lCt9lOZWZLB2jIlNKz+LBgCtDurK0JZcwucxYHn1w2BJkD34dgX9Tjnak0txtq4WTggEA==}
+    dependencies:
+      '@types/estree': 1.0.5
+      '@types/json-schema': 7.0.15
     dev: true
 
   /@types/estree@1.0.5:
