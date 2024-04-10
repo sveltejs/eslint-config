@@ -3,6 +3,7 @@ import ts from 'typescript-eslint';
 import svelte from 'eslint-plugin-svelte';
 import prettier from 'eslint-config-prettier';
 import unicorn from 'eslint-plugin-unicorn';
+import stylistic from '@stylistic/eslint-plugin-js';
 import globals from 'globals';
 
 /** @type {import('eslint').Linter.FlatConfig[]} */
@@ -14,7 +15,8 @@ export default [
 	...svelte.configs['flat/prettier'],
 	{
 		plugins: {
-			unicorn
+			unicorn,
+			'@stylistic': stylistic
 		},
 		languageOptions: {
 			globals: {
@@ -23,7 +25,9 @@ export default [
 			}
 		},
 		rules: {
-			'@typescript-eslint/array-type': [ 'error', { default: 'array-simple' } ],
+			'@stylistic/quote-props': ['error', 'as-needed'],
+			'@stylistic/quotes': ['error', 'single', { avoidEscape: true }],
+			'@typescript-eslint/array-type': ['error', { default: 'array-simple' }],
 			'@typescript-eslint/ban-ts-comment': 'off',
 			'@typescript-eslint/ban-types': 'off',
 			'@typescript-eslint/camelcase': 'off',
@@ -36,25 +40,23 @@ export default [
 			'@typescript-eslint/no-explicit-any': 'off',
 			'@typescript-eslint/no-inferrable-types': 'off',
 			'@typescript-eslint/no-object-literal-type-assertion': 'off',
+			'@typescript-eslint/no-this-alias': 'off',
 			'@typescript-eslint/no-unused-vars': ['error', { args: 'after-used', argsIgnorePattern: '^_' }],
 			'@typescript-eslint/no-use-before-define': 'off',
-			'@typescript-eslint/no-this-alias': 'off',
 			'@typescript-eslint/prefer-interface': 'off',
 			'no-constant-condition': ['error', { checkLoops: false }],
 			'no-duplicate-imports': 'error',
 			'no-empty': ['error', { allowEmptyCatch: true }],
 			'no-inner-declarations': 'off',
-			'no-sparse-arrays': 'off',
 			'no-restricted-properties': [
 				'error',
 				{ object: 'test', property: 'only', message: 'Do not check in test.only tests.' }
 			],
+			'no-sparse-arrays': 'off',
+			'prefer-const': ['error', { destructuring: 'all' }],
 			'no-var': 'error',
-			'object-shorthand': [ 'error', 'always' ],
+			'object-shorthand': ['error', 'always'],
 			'prefer-arrow-callback': 'error',
-			'prefer-const': [ 'error', { destructuring: 'all' } ],
-			quotes: ['error', 'single', { avoidEscape: true }],
-			'quote-props': [ 'error', 'as-needed' ],
 			'svelte/no-inner-declarations': 'off',
 			'unicorn/prefer-node-protocol': 'error'
 		}

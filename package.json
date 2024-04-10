@@ -21,6 +21,7 @@
   "homepage": "https://github.com/svelte/eslint-config#readme",
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
+    "@stylistic/eslint-plugin-js": "^1.7.0",
     "@svitejs/changesets-changelog-github-compact": "^1.1.0",
     "eslint": "^9.0.0",
     "eslint-config-prettier": "^9.1.0",
@@ -32,6 +33,7 @@
     "typescript-eslint": "^7.6.0"
   },
   "peerDependencies": {
+    "@stylistic/eslint-plugin-js": ">= 1",
     "eslint": ">= 9",
     "eslint-config-prettier": ">= 9",
     "eslint-plugin-svelte": ">= 2.36",
