@@ -1,6 +1,6 @@
 {
   "name": "@sveltejs/eslint-config",
-  "version": "6.0.4",
+  "version": "7.0.0",
   "description": "Svelte ESLint config",
   "type": "module",
   "main": "index.js",
