@@ -17,7 +17,6 @@ export default [
 			unicorn
 		},
 		languageOptions: {
-			ecmaVersion: 13, // es2022
 			globals: {
 				...globals.browser,
 				...globals.node
