@@ -1,5 +1,11 @@
 # @sveltejs/eslint-config
 
+## 8.0.0
+
+### Major Changes
+
+- switch from eslint-plugin-unicorn to eslint-plugin-n ([`694f0b7a2a468a5d878b786d9afddadf3e0f287e`](https://github.com/sveltejs/eslint-config/commit/694f0b7a2a468a5d878b786d9afddadf3e0f287e))
+
 ## 7.0.1
 
 ### Patch Changes
