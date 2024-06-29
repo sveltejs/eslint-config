@@ -1,5 +1,11 @@
 # @sveltejs/eslint-config
 
+## 8.0.1
+
+### Patch Changes
+
+- fix: correct the eslint-plugin-n setup ([`3c70acb921020d55e81bf97d552e41e8e0bb7f88`](https://github.com/sveltejs/eslint-config/commit/3c70acb921020d55e81bf97d552e41e8e0bb7f88))
+
 ## 8.0.0
 
 ### Major Changes
