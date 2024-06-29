@@ -2,7 +2,7 @@ import js from '@eslint/js';
 import ts from 'typescript-eslint';
 import svelte from 'eslint-plugin-svelte';
 import prettier from 'eslint-config-prettier';
-import unicorn from 'eslint-plugin-unicorn';
+import node from 'eslint-plugin-n';
 import stylistic from '@stylistic/eslint-plugin-js';
 import globals from 'globals';
 
@@ -15,7 +15,6 @@ export default [
 	...svelte.configs['flat/prettier'],
 	{
 		plugins: {
-			unicorn,
 			'@stylistic': stylistic
 		},
 		languageOptions: {
@@ -58,7 +57,7 @@ export default [
 			'object-shorthand': ['error', 'always'],
 			'prefer-arrow-callback': 'error',
 			'svelte/no-inner-declarations': 'off',
-			'unicorn/prefer-node-protocol': 'error'
+			'n/prefer-node-protocol': 'error'
 		}
 	}
 ];

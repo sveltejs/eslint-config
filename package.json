@@ -33,7 +33,7 @@
     "eslint": "^9.0.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-svelte": "^2.36.0",
-    "eslint-plugin-unicorn": "^52.0.0",
+    "eslint-plugin-n": "^17.9.0",
     "svelte": "^4.2.12",
     "typescript": "^5.4.4",
     "typescript-eslint": "^7.6.0"
@@ -43,7 +43,7 @@
     "eslint": ">= 9",
     "eslint-config-prettier": ">= 9",
     "eslint-plugin-svelte": ">= 2.36",
-    "eslint-plugin-unicorn": ">= 50",
+    "eslint-plugin-n": ">= 17",
     "typescript": ">= 5",
     "typescript-eslint": ">= 7.5"
   },
