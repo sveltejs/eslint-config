@@ -15,7 +15,7 @@ export default [
 	...svelte.configs['flat/prettier'],
 	{
 		plugins: {
-			'@stylistic': stylistic
+			n: node, '@stylistic': stylistic
 		},
 		languageOptions: {
 			globals: {
