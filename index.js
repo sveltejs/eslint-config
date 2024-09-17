@@ -57,6 +57,7 @@ export default [
 			'object-shorthand': ['error', 'always'],
 			'prefer-arrow-callback': 'error',
 			'svelte/no-inner-declarations': 'off',
+			'n/prefer-global/process': ['error', 'never'],
 			'n/prefer-node-protocol': 'error'
 		}
 	}
