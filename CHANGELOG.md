@@ -1,5 +1,11 @@
 # @sveltejs/eslint-config
 
+## 8.1.0
+
+### Minor Changes
+
+- feat: add rule to enforce that process is imported ([#40](https://github.com/sveltejs/eslint-config/pull/40))
+
 ## 8.0.1
 
 ### Patch Changes
