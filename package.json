@@ -1,6 +1,6 @@
 {
   "name": "@sveltejs/eslint-config",
-  "version": "8.1.0",
+  "version": "8.1.1",
   "description": "Svelte ESLint config",
   "type": "module",
   "main": "index.js",
@@ -33,7 +33,7 @@
     "eslint": "^9.6.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-n": "^17.9.0",
-    "eslint-plugin-svelte": "^2.41.0",
+    "eslint-plugin-svelte": "^3.0.2",
     "svelte": "^4.2.18",
     "typescript": "^5.5.2",
     "typescript-eslint": "^7.14.1"
@@ -43,7 +43,7 @@
     "eslint": ">= 9",
     "eslint-config-prettier": ">= 9",
     "eslint-plugin-n": ">= 17",
-    "eslint-plugin-svelte": ">= 2.36",
+    "eslint-plugin-svelte": ">= 3",
     "typescript": ">= 5",
     "typescript-eslint": ">= 7.5"
   },

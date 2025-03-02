@@ -5,14 +5,28 @@ import prettier from 'eslint-config-prettier';
 import node from 'eslint-plugin-n';
 import stylistic from '@stylistic/eslint-plugin-js';
 import globals from 'globals';
+import * as fs from 'node:fs';
+
+const svelteConfig = fs.existsSync('./svelte.config.js') ? require('./svelte.config.js') : undefined;
 
 /** @type {import('eslint').Linter.FlatConfig[]} */
 export default [
 	js.configs.recommended,
 	...ts.configs.recommended,
-	...svelte.configs['flat/recommended'],
+	...svelte.configs.recommended,
 	prettier,
-	...svelte.configs['flat/prettier'],
+	...svelte.configs.prettier,
+	{
+		files: ['**/*.svelte', '**/*.svelte.ts', '**/*.svelte.js'],
+		languageOptions: {
+			parserOptions: {
+				projectService: true,
+				extraFileExtensions: ['.svelte'],
+				parser: ts.parser,
+				svelteConfig
+			}
+		}
+	},
 	{
 		plugins: {
 			n: node, '@stylistic': stylistic
