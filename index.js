@@ -35,7 +35,7 @@ export default [
 		},
 		rules: {
 			'@stylistic/quote-props': ['error', 'as-needed'],
-			'@stylistic/quotes': ['error', 'single', { avoidEscape: true }],
+			'@stylistic/quotes': ['error', 'single', { avoidEscape: true, allowTemplateLiterals: true }],
 			'@typescript-eslint/array-type': ['error', { default: 'array-simple' }],
 			'@typescript-eslint/ban-ts-comment': 'off',
 			'@typescript-eslint/ban-types': 'off',
