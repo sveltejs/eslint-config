@@ -1,5 +1,15 @@
 # @sveltejs/eslint-config
 
+## 8.2.0
+
+### Minor Changes
+
+- deps: update eslint-plugin-svelte v3 ([#43](https://github.com/sveltejs/eslint-config/pull/43))
+
+### Patch Changes
+
+- fix: only allow template literals when needed to avoid an escape sequence ([#42](https://github.com/sveltejs/eslint-config/pull/42))
+
 ## 8.1.0
 
 ### Minor Changes
