@@ -23,18 +23,6 @@ export default [
 			}
 		}
 	},
-	// projectService is resource intensive, so only listing rules that require it here
-	{
-		languageOptions: {
-			parserOptions: {
-				projectService: true
-			}
-		},
-		rules: {
-			'@typescript-eslint/await-thenable': 'error',
-			'@typescript-eslint/require-await': 'error'
-		}
-	},
 	{
 		plugins: {
 			n: node, '@stylistic': stylistic
