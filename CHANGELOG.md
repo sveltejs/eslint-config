@@ -1,5 +1,11 @@
 # @sveltejs/eslint-config
 
+## 8.3.3
+
+### Patch Changes
+
+- fix: remove projectService from base config" ([#53](https://github.com/sveltejs/eslint-config/pull/53))
+
 ## 8.3.2
 
 ### Patch Changes
