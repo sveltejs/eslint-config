@@ -1,5 +1,11 @@
 # @sveltejs/eslint-config
 
+## 8.3.0
+
+### Minor Changes
+
+- feat: add two type checked rules used in Svelte and SvelteKit ([#45](https://github.com/sveltejs/eslint-config/pull/45))
+
 ## 8.2.0
 
 ### Minor Changes
