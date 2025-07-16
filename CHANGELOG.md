@@ -1,5 +1,11 @@
 # @sveltejs/eslint-config
 
+## 8.3.2
+
+### Patch Changes
+
+- fix: reduce resource usage ([#50](https://github.com/sveltejs/eslint-config/pull/50))
+
 ## 8.3.1
 
 ### Patch Changes
