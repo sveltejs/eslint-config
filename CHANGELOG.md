@@ -1,5 +1,11 @@
 # @sveltejs/eslint-config
 
+## 8.3.1
+
+### Patch Changes
+
+- fix: enable projectService ([#47](https://github.com/sveltejs/eslint-config/pull/47))
+
 ## 8.3.0
 
 ### Minor Changes
