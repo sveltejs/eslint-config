@@ -23,6 +23,18 @@ export default [
 			}
 		}
 	},
+	// projectService is resource intensive, so only listing rules that require it here
+	{
+		languageOptions: {
+			parserOptions: {
+				projectService: true
+			}
+		},
+		rules: {
+			'@typescript-eslint/await-thenable': 'error',
+			'@typescript-eslint/require-await': 'error'
+		}
+	},
 	{
 		plugins: {
 			n: node, '@stylistic': stylistic
@@ -40,7 +52,6 @@ export default [
 			'@stylistic/quote-props': ['error', 'as-needed'],
 			'@stylistic/quotes': ['error', 'single', { avoidEscape: true, allowTemplateLiterals: true }],
 			'@typescript-eslint/array-type': ['error', { default: 'array-simple' }],
-			'@typescript-eslint/await-thenable': 'error',
 			'@typescript-eslint/ban-ts-comment': 'off',
 			'@typescript-eslint/ban-types': 'off',
 			'@typescript-eslint/camelcase': 'off',
@@ -57,7 +68,6 @@ export default [
 			'@typescript-eslint/no-unused-vars': ['error', { args: 'after-used', argsIgnorePattern: '^_' }],
 			'@typescript-eslint/no-use-before-define': 'off',
 			'@typescript-eslint/prefer-interface': 'off',
-			'@typescript-eslint/require-await': 'error',
 			'no-constant-condition': ['error', { checkLoops: false }],
 			'no-duplicate-imports': 'error',
 			'no-empty': ['error', { allowEmptyCatch: true }],
