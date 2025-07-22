@@ -18,7 +18,7 @@
   ],
   "author": "Svelte",
   "license": "MIT",
-  "homepage": "https://github.com/svelte/eslint-config#readme",
+  "homepage": "https://github.com/sveltejs/eslint-config#readme",
   "files": [
     "index.js",
     "package.json"
