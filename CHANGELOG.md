@@ -1,5 +1,11 @@
 # @sveltejs/eslint-config
 
+## 8.3.4
+
+### Patch Changes
+
+- fix: finish removing recently added projectService config ([`91aefb6744437155861020693417c0cd29bc287d`](https://github.com/sveltejs/eslint-config/commit/91aefb6744437155861020693417c0cd29bc287d))
+
 ## 8.3.3
 
 ### Patch Changes
