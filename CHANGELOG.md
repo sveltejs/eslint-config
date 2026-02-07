@@ -1,5 +1,11 @@
 # @sveltejs/eslint-config
 
+## 8.3.5
+
+### Patch Changes
+
+- chore: upgrade to globals 17 ([`9a6909c979d6b15714863cec4dcf7d199bd5e6a2`](https://github.com/sveltejs/eslint-config/commit/9a6909c979d6b15714863cec4dcf7d199bd5e6a2))
+
 ## 8.3.4
 
 ### Patch Changes
