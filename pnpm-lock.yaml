@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       globals:
-        specifier: ^15.6.0
-        version: 15.6.0
+        specifier: ^17.0.0
+        version: 17.3.0
     devDependencies:
       '@changesets/cli':
         specifier: ^2.27.8
@@ -558,6 +558,10 @@ packages:
 
   globals@15.6.0:
     resolution: {integrity: sha512-UzcJi88Hw//CurUIRa9Jxb0vgOCcuD/MNjwmXp633cyaRKkCWACkoqHCtfZv43b1kqXGg/fpOa8bwgacCeXsVg==}
+    engines: {node: '>=18'}
+
+  globals@17.3.0:
+    resolution: {integrity: sha512-yMqGUQVVCkD4tqjOJf3TnrvaaHDMYp4VlUSObbkIiuCPe/ofdMBFIAcBbCSRFWOnos6qRiTVStDwqPLUclaxIw==}
     engines: {node: '>=18'}
 
   globby@11.1.0:
@@ -1713,6 +1717,8 @@ snapshots:
   globals@14.0.0: {}
 
   globals@15.6.0: {}
+
+  globals@17.3.0: {}
 
   globby@11.1.0:
     dependencies:
