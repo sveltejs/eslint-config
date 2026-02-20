@@ -1,5 +1,11 @@
 # @sveltejs/eslint-config
 
+## 9.0.0
+
+### Major Changes
+
+- chore: upgrade to eslint 10 ([`245ab11cd19864a7bd8c69918f0c3a70d208d845`](https://github.com/sveltejs/eslint-config/commit/245ab11cd19864a7bd8c69918f0c3a70d208d845))
+
 ## 8.3.5
 
 ### Patch Changes
