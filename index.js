@@ -6,7 +6,7 @@ import node from 'eslint-plugin-n';
 import stylistic from '@stylistic/eslint-plugin-js';
 import globals from 'globals';
 
-/** @type {import('eslint').Linter.FlatConfig[]} */
+/** @type {import('eslint/config').Config[]} */
 export default [
 	js.configs.recommended,
 	...ts.configs.recommended,
