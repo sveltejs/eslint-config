@@ -47,7 +47,7 @@
     "eslint-config-prettier": ">= 9",
     "eslint-plugin-n": ">= 17",
     "eslint-plugin-svelte": ">= 3",
-    "typescript": ">= 6 < 7",
+    "typescript": ">= 5 < 7",
     "typescript-eslint": ">= 8"
   },
   "packageManager": "pnpm@10.33.0"
