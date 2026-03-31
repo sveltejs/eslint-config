@@ -4,6 +4,7 @@
   "description": "Svelte ESLint config",
   "type": "module",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "lint": "eslint -c index.js",
     "lint:ci": "eslint -c index.js --format junit -o reports/junit/eslint-results.xml",
@@ -21,6 +22,7 @@
   "homepage": "https://github.com/sveltejs/eslint-config#readme",
   "files": [
     "index.js",
+    "index.d.ts",
     "package.json"
   ],
   "dependencies": {
@@ -32,20 +34,20 @@
     "@stylistic/eslint-plugin": "^5.10.0",
     "@svitejs/changesets-changelog-github-compact": "^1.2.0",
     "eslint": "^10.1.0",
-    "eslint-config-prettier": "^9.1.2",
+    "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-n": "^17.24.0",
     "eslint-plugin-svelte": "^3.16.0",
-    "typescript": "^5.9.3",
+    "typescript": "^6.0.2",
     "typescript-eslint": "^8.58.0"
   },
   "peerDependencies": {
     "@eslint/js": ">= 10",
-    "@stylistic/eslint-plugin-js": ">= 1",
+    "@stylistic/eslint-plugin": ">= 5",
     "eslint": ">= 10",
     "eslint-config-prettier": ">= 9",
     "eslint-plugin-n": ">= 17",
     "eslint-plugin-svelte": ">= 3",
-    "typescript": ">= 5",
+    "typescript": ">= 6",
     "typescript-eslint": ">= 8"
   },
   "packageManager": "pnpm@10.33.0"
