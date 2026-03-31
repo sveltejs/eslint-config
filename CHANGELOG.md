@@ -1,5 +1,17 @@
 # @sveltejs/eslint-config
 
+## 10.0.0
+
+### Major Changes
+
+- feat: support TypeScript 6.0 ([#67](https://github.com/sveltejs/eslint-config/pull/67))
+
+- chore: migrate to @stylistic/eslint-plugin ([#65](https://github.com/sveltejs/eslint-config/pull/65))
+
+### Patch Changes
+
+- chore: upgrade `globals` ([#64](https://github.com/sveltejs/eslint-config/pull/64))
+
 ## 9.0.0
 
 ### Major Changes
