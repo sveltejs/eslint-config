@@ -3,10 +3,10 @@ import ts from 'typescript-eslint';
 import svelte from 'eslint-plugin-svelte';
 import prettier from 'eslint-config-prettier';
 import node from 'eslint-plugin-n';
-import stylistic from '@stylistic/eslint-plugin-js';
+import stylistic from '@stylistic/eslint-plugin';
 import globals from 'globals';
 
-/** @type {import('eslint').Linter.Config[]} */
+/** @type {import('eslint/config').Config[]} */
 export default [
 	js.configs.recommended,
 	...ts.configs.recommended,
