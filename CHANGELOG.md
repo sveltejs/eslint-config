@@ -1,5 +1,11 @@
 # @sveltejs/eslint-config
 
+## 10.0.1
+
+### Patch Changes
+
+- chore: avoid deprecated value for the `stylistic` `allowTemplateLiterals` rule ([#68](https://github.com/sveltejs/eslint-config/pull/68))
+
 ## 10.0.0
 
 ### Major Changes
