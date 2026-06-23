@@ -26,19 +26,19 @@
     "package.json"
   ],
   "dependencies": {
-    "globals": "^17.4.0"
+    "globals": "^17.6.0"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.30.0",
+    "@changesets/cli": "^2.31.0",
     "@eslint/js": "^10.0.1",
     "@stylistic/eslint-plugin": "^5.10.0",
     "@svitejs/changesets-changelog-github-compact": "^1.2.0",
-    "eslint": "^10.1.0",
+    "eslint": "^10.5.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-n": "^17.24.0",
-    "eslint-plugin-svelte": "^3.16.0",
-    "typescript": "^6.0.2",
-    "typescript-eslint": "^8.58.0"
+    "eslint-plugin-svelte": "^3.19.0",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.61.1"
   },
   "peerDependencies": {
     "@eslint/js": ">= 10",
@@ -50,5 +50,5 @@
     "typescript": ">= 5 < 7",
     "typescript-eslint": ">= 8"
   },
-  "packageManager": "pnpm@10.33.0"
+  "packageManager": "pnpm@11.8.0+sha512.c1f5e7c4cb241c8f174b743851d82f42b802324afc8b0f116b96adb15aa06664948dde36960a3ba1079ba5b4b29dd0140135b94b5b5f5263592249d68e555f26"
 }
