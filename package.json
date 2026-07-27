@@ -33,7 +33,7 @@
     "@eslint/js": "^10.0.1",
     "@stylistic/eslint-plugin": "^5.10.0",
     "@svitejs/changesets-changelog-github-compact": "^1.2.0",
-    "eslint": "^10.7.0",
+    "eslint": "^10.8.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-n": "^18.2.2",
     "eslint-plugin-svelte": "^3.22.0",
