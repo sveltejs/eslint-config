@@ -1,5 +1,11 @@
 # @sveltejs/eslint-config
 
+## 10.0.2
+
+### Patch Changes
+
+- chore: bump deps to avoid audit warnings ([#71](https://github.com/sveltejs/eslint-config/pull/71))
+
 ## 10.0.1
 
 ### Patch Changes
