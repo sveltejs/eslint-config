@@ -1,5 +1,11 @@
 # @sveltejs/eslint-config
 
+## 10.0.3
+
+### Patch Changes
+
+- chore: bump dependencies to silence audit warnings ([#73](https://github.com/sveltejs/eslint-config/pull/73))
+
 ## 10.0.2
 
 ### Patch Changes
