@@ -1,5 +1,11 @@
 # @sveltejs/eslint-config
 
+## 10.0.4
+
+### Patch Changes
+
+- fix: upgrade `globals` to 17.9.0 ([#76](https://github.com/sveltejs/eslint-config/pull/76))
+
 ## 10.0.3
 
 ### Patch Changes
